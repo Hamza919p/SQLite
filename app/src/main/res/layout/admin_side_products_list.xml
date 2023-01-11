@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="13dp"
+    android:padding="13dp"
+    android:id="@+id/root"
+    android:background="@color/white"
+    android:layout_marginBottom="13dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_reviews"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ellipsize="end"-->
+<!--        android:maxLines="1"-->
+<!--        android:text="Reviews"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="13sp" />-->
+
+<!--    <com.kimu.grocerysqlite.utils.ratingBar.CustomRatingBar-->
+<!--        android:id="@+id/avg_rating"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:isIndicator="false"-->
+<!--        android:numStars="5"-->
+<!--        android:stepSize="1"-->
+<!--        android:rating="3"-->
+<!--        app:bgDrawable="@drawable/star_off"-->
+<!--        app:starColor="#ffcd20"-->
+<!--        app:starDrawable="@drawable/star_on"-->
+<!--        app:starSpacing="20dp" />-->
+
+</LinearLayout>
